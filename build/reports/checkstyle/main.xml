@@ -5,6 +5,5 @@
 <file name="/home/aldo/IdeaProjects/Calculador/src/main/java/com/AldoLunaBueno/Calculador/Calculador.java">
 </file>
 <file name="/home/aldo/IdeaProjects/Calculador/src/main/java/com/AldoLunaBueno/Calculador/CalculadorApplication.java">
-<error line="8" column="37" severity="error" message="Name &apos;constant&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
 </file>
 </checkstyle>
