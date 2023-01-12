@@ -21,7 +21,8 @@ pipeline {
                     reportDir: 'build/reports/jacoco/test/html',
                     reportFiles: 'index.html',
                     reportName:"JaCoCo Report",
-                    reportTitles: 'The Report'])
+                    reportTitles: 'The Report'
+                ])
                 sh "./gradlew jacocoTestCoverageVerification"
             }
         }
