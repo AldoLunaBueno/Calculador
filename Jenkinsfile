@@ -1,5 +1,9 @@
 pipeline {
-    agent any
+    agent {
+        docker {
+            label 'jenkins-agent-docker'
+        }
+    }
     stages {
         stage("Compile") {
             steps {
